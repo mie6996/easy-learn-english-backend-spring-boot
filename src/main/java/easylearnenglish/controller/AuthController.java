@@ -1,0 +1,21 @@
+package easylearnenglish.controller;
+
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController("/auth")
+@Controller
+public class AuthController {
+    @PostMapping("/login")
+    public String login() {
+        return "login";
+    }
+
+    @PostMapping("/signup")
+    public String register() {
+        return "register";
+    }
+
+}
