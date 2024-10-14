@@ -1,4 +1,4 @@
-package easylearnenglish.service;
+package easylearnwords.service;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package easylearnenglish.entity;
+package easylearnwords.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
